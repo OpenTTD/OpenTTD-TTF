@@ -18,7 +18,7 @@ Designed for use at 10 pixel height.
 ![OpenTTD Sans preview, 40px anti-aliased](openttd-sans/OpenTTD-Sans-40px-anti-aliased.png)
 
 Full coverage of: `Basic Latin`, `Latin-1 Supplement`, `Latin Extended-A` and `Currency Symbols`.
-Extensive coverage of: `Greek and Coptic` and `Cyrillic`.
+Extensive coverage of: `Greek and Coptic`, `Cyrillic` and `Hebrew`.
 
 ### OpenTTD Mono
 
@@ -46,7 +46,7 @@ Designed for use at 18 pixel height.
 ![OpenTTD Serif preview, 72px anti-aliased](openttd-serif/OpenTTD-Serif-72px-anti-aliased.png)
 
 Full coverage of: `Basic Latin`, `Latin-1 Supplement`, `Latin Extended-A` and `Currency Symbols`.
-Extensive coverage of: `Greek and Coptic` and `Cyrillic`.
+Extensive coverage of: `Greek and Coptic`, `Cyrillic` and `Hebrew`.
 
 ### OpenTTD Small
 
