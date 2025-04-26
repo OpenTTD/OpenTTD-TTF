@@ -107,7 +107,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 896 32 8
+WinInfo: 1376 32 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "sin" "Diacritics" "shin" "Diacritics" "sin"""  "dagesh" "Diacritics" "bottom" "Diacritics" "top" "Diacritics"
@@ -12530,7 +12530,7 @@ EndChar
 StartChar: uni0406
 Encoding: 1030 1030 552
 Width: 300
-Flags: WO
+Flags: W
 HStem: 0 21G<0 200> 780 20G<0 200>
 VStem: 0 200<0 800>
 LayerCount: 2
