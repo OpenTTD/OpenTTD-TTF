@@ -61,7 +61,7 @@ Designed for use at 6 pixel height.
 ![OpenTTD Small preview, 24px anti-aliased](openttd-small/OpenTTD-Small-24px-anti-aliased.png)
 
 Full coverage of: `Basic Latin`, `Latin-1 Supplement`, `Latin Extended-A`, `Currency Symbols`.
-Extensive coverage of: `Greek and Coptic` and `Cyrillic`.
+Extensive coverage of: `Greek and Coptic`, `Cyrillic` and `Hebrew`.
 
 ## Using in OpenTTD
 
