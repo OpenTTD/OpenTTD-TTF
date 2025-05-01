@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1702291130
-ModificationTime: 1742127242
+ModificationTime: 1746133340
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -107,11 +107,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1376 32 8
+WinInfo: 57856 32 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "sin" "Diacritics" "shin" "Diacritics" "sin"""  "dagesh" "Diacritics" "bottom" "Diacritics" "top" "Diacritics"
-BeginChars: 65603 755
+BeginChars: 65603 756
 
 StartChar: a
 Encoding: 97 97 0
@@ -17096,6 +17096,23 @@ Encoding: 64318 64318 754
 Width: 800
 Flags: HW
 LayerCount: 2
+EndChar
+
+StartChar: uniE29D
+Encoding: 58013 58013 755
+Width: 400
+Flags: HW
+HStem: 0 21G<330 400> 0 21G<330 400>
+LayerCount: 2
+Fore
+SplineSet
+350 0 m 1x80
+ 0 350 l 1
+ 350 700 l 1
+ 400 700 l 1
+ 400 0 l 1
+ 350 0 l 1x80
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
