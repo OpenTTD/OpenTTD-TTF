@@ -7,7 +7,7 @@
    viewBox="0 0 1200 1200"
    version="1.1"
    id="svg1"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="168_diaresis-umlaut.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,14 +24,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="1.1116667"
-     inkscape:cx="152.92354"
-     inkscape:cy="285.60719"
-     inkscape:window-width="1350"
-     inkscape:window-height="1230"
-     inkscape:window-x="1214"
-     inkscape:window-y="69"
-     inkscape:window-maximized="0"
+     inkscape:zoom="3.1442682"
+     inkscape:cx="178.73793"
+     inkscape:cy="326.14902"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showguides="false">
     <inkscape:grid
@@ -39,7 +39,7 @@
        units="px"
        originx="0"
        originy="0"
-       spacingx="25"
+       spacingx="12.5"
        spacingy="25"
        empcolor="#0099e5"
        empopacity="0.30196078"
@@ -60,12 +60,12 @@
     <path
        id="path39582"
        style="fill:#000000;fill-opacity:0.56;fill-rule:evenodd;stroke-width:6;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.5;stop-color:#000000"
-       d="m 50,200 c -18.462144,0 -50,4.28932 -50,50 0,45.71068 33.578644,75 75,75 41.42136,0 75,-29.28932 75,-75 0,-45.71068 -31.54998,-50 -50,-50 z"
+       d="m 50,200 c -18.462144,0 -50,4.28932 -50,50 0,45.71068 21.078644,75 62.5,75 41.42136,0 62.5,-29.28932 62.5,-75 0,-45.71068 -31.54998,-50 -50,-50 z"
        sodipodi:nodetypes="szszss" />
     <path
        id="path39582-2"
        style="fill:#000000;fill-opacity:0.56;fill-rule:evenodd;stroke-width:6;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.5;stop-color:#000000"
-       d="m 300,200 c -18.46214,0 -50,4.28932 -50,50 0,45.71068 33.57864,75 75,75 41.42136,0 75,-29.28932 75,-75 0,-45.71068 -31.54998,-50 -50,-50 z"
+       d="m 325,200 c -18.46214,0 -50,4.28932 -50,50 0,45.71068 21.07864,75 62.5,75 41.42136,0 62.5,-29.28932 62.5,-75 0,-45.71068 -31.54998,-50 -50,-50 z"
        sodipodi:nodetypes="szszss" />
   </g>
 </svg>
