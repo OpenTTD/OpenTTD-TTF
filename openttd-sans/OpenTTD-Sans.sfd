@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1702291130
-ModificationTime: 1749313378
+ModificationTime: 1749811602
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -64,7 +64,7 @@ KernClass2: 5+ 5 "Greek Kern"
  199 alphatonos epsilontonos etatonos alpha gamma delta epsilon eta iota kappa uni03BC nu omicron pi rho sigma1 sigma tau upsilon phi chi psi omega omicrontonos upsilontonos omegatonos phi1 omega1 uni03D7
  20 Alpha uni0394 Lambda
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -200 {} -300 {} 0 {} 0 {} 0 {} -100 {} -200 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} -200 {} -300 {} 0 {} 0 {}
-KernClass2: 12+ 10 "Kern"
+KernClass2: 12+ 11 "Kern"
  0 
  17 T uni0162 uni021A
  27 F V W Y Wcircumflex uni0191
@@ -86,7 +86,8 @@ KernClass2: 12+ 10 "Kern"
  121 c e g o q r ccedilla eacute oacute oslash cacute cdotaccent dcaron dcroat edotaccent gdotaccent uni0123 oe racute uni0157
  7 A G O Q
  6 florin
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} -100 {} -200 {} 0 {} 0 {} -100 {} 0 {} -200 {} 0 {} -100 {} 0 {} 0 {} -200 {} 0 {} 0 {} -100 {} -100 {} -200 {} 0 {} -100 {} -100 {} 0 {} -200 {} 0 {} 0 {} -100 {} 0 {} -200 {} -100 {} -100 {} -100 {} -100 {} -200 {} -100 {} -100 {} -100 {} 0 {} -200 {} 0 {} 0 {} 0 {} 0 {} -200 {} -100 {} -100 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -200 {} -200 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} -200 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ 15 Iogonek iogonek
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} -100 {} -200 {} 0 {} 0 {} -100 {} 0 {} -200 {} -100 {} 0 {} -100 {} 0 {} 0 {} -200 {} 0 {} 0 {} -100 {} -100 {} -200 {} -100 {} 0 {} -100 {} -100 {} 0 {} -200 {} 0 {} 0 {} -100 {} 0 {} -200 {} -100 {} -100 {} -100 {} -100 {} -100 {} -200 {} -100 {} -100 {} -100 {} 0 {} -200 {} -100 {} 0 {} 0 {} 0 {} 0 {} -200 {} -100 {} -100 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -200 {} -200 {} 0 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} 0 {} -200 {} 0 {} -100 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} 0 {} -200 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {}
 ContextSub2: class "CapitalsDiactricAbove" 3 1 1 1
   Class: 299 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F
   Class: 117 gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030F uni0312 uni0344
@@ -107,7 +108,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 96 32 8
+WinInfo: 224 32 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "sin" "Diacritics" "shin" "Diacritics" "sin"""  "dagesh" "Diacritics" "bottom" "Diacritics" "top" "Diacritics"
@@ -5387,7 +5388,7 @@ EndChar
 StartChar: Iogonek
 Encoding: 302 302 247
 Width: 400
-Flags: HW
+Flags: W
 HStem: -200 75<300 400> -200 200<100 200> 0 21G<100 300> 780 20G<100 300>
 VStem: 0 200<-109.46 -33.5107> 100 200<0 800>
 LayerCount: 2
@@ -5398,13 +5399,13 @@ EndChar
 
 StartChar: iogonek
 Encoding: 303 303 248
-Width: 300
-Flags: HW
+Width: 400
+Flags: WO
 HStem: -200 75<300 400> -200 200<100 200> 0 21G<100 300> 580 20G<100 300> 675 125<124.385 275.616>
 VStem: 0 200<-109.46 -33.5107> 100 200<0 600 699.572 797.02>
 LayerCount: 2
 Fore
-Refer: 505 731 S 1 0 0 1 0 0 2
+Refer: 505 731 N 1 0 0 1 0 0 2
 Refer: 9 105 N 1 0 0 1 100 0 2
 EndChar
 
@@ -11115,7 +11116,7 @@ EndChar
 StartChar: ogonek
 Encoding: 731 731 505
 Width: 400
-Flags: HW
+Flags: W
 HStem: -200 200<100 200> -200 75<300 400>
 VStem: 0 200<-109.46 -33.5107>
 AnchorPoint: "bottom" 200 0 basechar 0
