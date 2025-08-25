@@ -34,7 +34,7 @@ for scale in scales:
         if fontmode["mode"] is not None:
             draw.fontmode = fontmode["mode"]
         font = ImageFont.truetype(fontpath, size * scale)
-        shadowtext(draw, scale, (3, 2 + line * 0), "OpenTTD Sans    ", font, (252, 176, 48), shadow)
+        shadowtext(draw, scale, (3, 2 + line * 0), "OpenTTD Sans    ", font, (252, 176, 48), shadow)
         shadowtext(draw, scale, (3, 2 + line * 1), "A pixel art-style typeface for OᴘᴇɴTTD, inspired by Transport Tycoon Deluxe.", font, foreground, shadow)
         shadowtext(draw, scale, (3, 2 + line * 2), "Numerics: 0123456789 ⁰¹²³⁴ ½¾¾ 6×7=42 95%", font, foreground, shadow)
         shadowtext(draw, scale, (3, 2 + line * 3), "Upper case: ABCDEFGHIJKLMNOPQRSTUVWXYZ", font, foreground, shadow)
