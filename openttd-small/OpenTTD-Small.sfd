@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1702291130
-ModificationTime: 1746133159
+ModificationTime: 1756159883
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -73,7 +73,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57856 32 8
+WinInfo: 8288 32 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "shin" "Diacritics" "sin" "Diacritics" "dagesh" "Diacritics" "bottom" "Diacritics" "top" "Diacritics"
@@ -7830,35 +7830,34 @@ Encoding: 8362 8362 371
 Width: 800
 VWidth: 960
 Flags: W
-HStem: 0 100<300 532.288> 380 20G<200 300> 500 100<100 332.288>
-VStem: 0 100<0 500> 200 100<100 400> 400 100<200 432.288> 600 100<167.712 600>
+HStem: 0 100<300 578.196> 300 100<100 378.196>
+VStem: 0 100<0 300> 200 100<100 200> 400 100<200 278.196> 600 100<121.804 400>
 LayerCount: 2
 Fore
 SplineSet
 0 0 m 1
- 0 600 l 1
- 250 600 l 2
- 400 600 500 496.76171875 500 350 c 2
+ 0 400 l 1
+ 325 400 l 2
+ 450 400 500 350 500 225 c 2
  500 200 l 1
  400 200 l 1
- 400 350 l 2
- 400 450 350 500 250 500 c 2
- 100 500 l 1
+ 400 225 l 2
+ 400 275 375 300 325 300 c 2
+ 100 300 l 1
  100 0 l 1
  0 0 l 1
-200 400 m 1
- 300 400 l 1
+200 200 m 1
+ 300 200 l 1
  300 100 l 1
- 450 100 l 2
- 550 100 600 150 600 250 c 2
- 600 600 l 1
- 700 600 l 1
- 700 250 l 2
- 700 103.23828125 600 0 450 0 c 2
+ 525 100 l 2
+ 575 100 600 125 600 175 c 2
+ 600 400 l 1
+ 700 400 l 1
+ 700 175 l 2
+ 700 50 650 0 525 0 c 2
  200 0 l 1
- 200 400 l 1
+ 200 200 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dong
