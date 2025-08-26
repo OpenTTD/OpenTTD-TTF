@@ -1,10 +1,16 @@
 #!/usr/bin/python3
 
+import os
 import sys
 from PIL import Image, ImageDraw, ImageFont
 
-fontname = sys.argv[1]
-fontpath = fontname + ".ttf"
+fontpath = "OpenTTD-Small.ttf"
+if len(sys.argv) > 1:
+    fontpath = sys.argv[1]
+outputpath = ""
+if len(sys.argv) > 2:
+    outputpath = sys.argv[2]
+fontname = os.path.basename(fontpath).replace(".ttf", "")
 size = 6
 line = size + 1
 background = (152, 132, 92)
@@ -48,4 +54,4 @@ for scale in scales:
         shadowtext(draw, scale, (3, 2 + line * 10), "Cyrillic upper: АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ", font, foreground, None)
         shadowtext(draw, scale, (3, 2 + line * 11), "Cyrillic lower: абвгдежзиклмнопрстуфхцчшщъыьэюя", font, foreground, None)
         shadowtext(draw, scale, (3, 2 + line * 12), "Hebrew: אבגדהוזחטיךכלםמןנסעףפץצקרשת", font, foreground, None)
-        image.save(fontname + "-" + str(scale * size) + "px-" + fontmode["description"] + ".png", "PNG")
+        image.save(os.path.join(outputpath, fontname + "-" + str(scale * size) + "px-" + fontmode["description"] + ".png"), "PNG")
