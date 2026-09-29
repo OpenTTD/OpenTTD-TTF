@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1702291130
-ModificationTime: 1756159838
+ModificationTime: 1790712279
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -118,7 +118,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8288 32 8
+WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "shin" "Diacritics" "sin" "Diacritics" "dagesh" "Diacritics" "bottom" "Diacritics" "top" "Diacritics"
@@ -6507,41 +6507,12 @@ StartChar: eng
 Encoding: 331 331 282
 Width: 1500
 VWidth: 1200
-Flags: W
+Flags: HW
 HStem: -400 100<799.857 1020> -20 20G<1100 1400> 0 100<100 300 600 800> 900 100<100 300 716.747 1100>
 VStem: 300 300<100 600 730 900> 600 300<-290 -125> 1100 300<-170 800>
 LayerCount: 2
 Fore
 SplineSet
-600 1000 m 1xb6
- 600 100 l 1
- 800 100 l 1
- 800 0 l 1
- 100 0 l 1
- 100 100 l 1
- 300 100 l 1
- 300 900 l 1xba
- 100 900 l 1
- 100 1000 l 1
- 600 1000 l 1xb6
-1400 0 m 1xda
- 1100 0 l 1
- 1100 700 l 2
- 1100 800 1099.99804688 899.267578125 960 900 c 0
- 716.747070312 901.272460938 600 600 600 600 c 1
- 600 730 l 1
- 600 730 700 1000 960 1000 c 0
- 1300 1000 1400.89941406 800.209960938 1400 720 c 2
- 1400 0 l 1xda
-1100 0 m 1
- 1400 0 l 1
- 1400 -320 1049.77441406 -400 900 -400 c 0
- 698.576171875 -395.12890625 600 -296.430664062 600 -200 c 0
- 600 -102.170898438 675 -75 750 -75 c 0
- 867.784179688 -75 900 -125 900 -175 c 0
- 900 -290 780 -280 780 -280 c 1
- 780 -280 799.860351562 -300.899414062 900 -300 c 0xd6
- 1020 -300 1100 -170 1100 0 c 1
 100 1000 m 1
  600 1000 l 1xb6
  600 730 l 1xba

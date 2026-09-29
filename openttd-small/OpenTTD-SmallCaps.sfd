@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1702291130
-ModificationTime: 1756159859
+ModificationTime: 1790711930
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -73,7 +73,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8320 32 8
+WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "shin" "Diacritics" "sin" "Diacritics" "dagesh" "Diacritics" "bottom" "Diacritics" "top" "Diacritics"
@@ -6751,40 +6751,17 @@ StartChar: uni20A5
 Encoding: 8357 8357 367
 Width: 600
 VWidth: 960
-Flags: W
+Flags: HW
 HStem: 0 400<0 100 200 300 400 425> 100 100<0 500> 300 100<100 175 268.144 400>
 VStem: 0 100<0 100 200 300> 200 100<0 293.047> 400 100<0 281.762>
 CounterMasks: 1 1c
 LayerCount: 2
 Fore
 SplineSet
-0 400 m 1x9c
- 100 400 l 2x9c
- 225 400 300 325 300 200 c 2x5c
- 300 0 l 1
- 200 0 l 1x9c
- 200 225 l 2
- 200 281.76171875 175 300 125 300 c 2
- 100 300 l 1x3c
- 100 0 l 1
- 0 0 l 1
- 0 400 l 1x9c
-200 300 m 1x3c
- 200 300 197.575195312 398.596679688 300 400 c 0x9c
- 425 400 500 325 500 200 c 2x5c
- 500 0 l 1
- 400 0 l 1x9c
- 400 225 l 2
- 400 281.76171875 375 300 350 300 c 0x3c
- 325 300 300 275 300 225 c 2
- 300 0 l 1
- 200 0 l 1x9c
- 200 300 l 1x3c
-0 100 m 1x5c
- 0 200 l 1
- 500 200 l 1
- 500 100 l 1
- 0 100 l 1x5c
+500 0 m 1025
+200 0 m 1025x9c
+500 200 m 5
+ 500 100 l 1029
 0 400 m 1x9c
  100 400 l 2
  149.09375 400 190.431640625 388.384765625 222.5859375 366.76171875 c 1
@@ -8939,22 +8916,11 @@ EndChar
 StartChar: Zeta
 Encoding: 918 918 446
 Width: 400
-Flags: W
+Flags: HW
 HStem: 0 100<100 300> 400 100<0 200>
 LayerCount: 2
 Fore
 SplineSet
-300 500 m 1
- 300 350 l 1
- 100 100 l 1
- 300 100 l 1
- 300 0 l 1
- 0 0 l 1
- 0 150 l 1
- 200 400 l 1
- 0 400 l 1
- 0 500 l 1
- 300 500 l 1
 300 500 m 1
  300 350 l 1
  100 100 l 1
@@ -9709,7 +9675,7 @@ HStem: 0 100<100 300> 400 100<0 200>
 AnchorPoint: "bottom" 100 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 446 918 N 1 0 0 1 0 0 2
+Refer: 446 918 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: eta
