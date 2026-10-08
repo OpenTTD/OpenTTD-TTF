@@ -15,8 +15,10 @@ Full coverage:
 * Currency Symbols (`U+20A0..U+20CF`)
 
 Targeted coverage:
+* General Punctuation (`U+2000..U+206F`)
 * Greek and Coptic (`U+0384..U+03D7`) [contempary Greek only `U+0370..U+03FF`]
 * Greek and Coptic (`U+0400..U+04FF`) [contempary Ukrainian, Russian and Belarusian `U+0400..U+045F`, with a few extra]
+* Hebrew (`U+0590..U+05FF`) [Hebrew alphabet/abjad only `U+05D0..U05EA`, with a few extra]
 
 Partial coverage:
 * IPA Extensions (`U+0250–U+02AF`)

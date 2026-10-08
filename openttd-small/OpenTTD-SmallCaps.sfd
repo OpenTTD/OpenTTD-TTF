@@ -8015,6 +8015,7 @@ SplineSet
  0 200 l 1
  0 300 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: emdash
@@ -8032,13 +8033,14 @@ SplineSet
  0 200 l 1
  0 300 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni2015
 Encoding: 8213 8213 399
-Width: 960
+Width: 700
 VWidth: 960
-Flags: W
+Flags: HW
 HStem: 200 100<0 600>
 LayerCount: 2
 Fore
@@ -8047,9 +8049,9 @@ EndChar
 
 StartChar: uni2010
 Encoding: 8208 8208 400
-Width: 480
+Width: 400
 VWidth: 960
-Flags: W
+Flags: HW
 HStem: 200 100<0 300>
 LayerCount: 2
 Fore
@@ -8058,9 +8060,9 @@ EndChar
 
 StartChar: uni2011
 Encoding: 8209 8209 401
-Width: 480
+Width: 400
 VWidth: 960
-Flags: W
+Flags: HW
 HStem: 200 100<0 300>
 LayerCount: 2
 Fore
@@ -8069,9 +8071,9 @@ EndChar
 
 StartChar: figuredash
 Encoding: 8210 8210 402
-Width: 480
+Width: 400
 VWidth: 960
-Flags: W
+Flags: HW
 HStem: 200 100<0 300>
 LayerCount: 2
 Fore
@@ -14806,6 +14808,104 @@ SplineSet
  250 0 l 1
  0 250 l 1xb0
 EndSplineSet
+EndChar
+
+StartChar: uni200B
+Encoding: 8203 8203 735
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200C
+Encoding: 8204 8204 736
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200D
+Encoding: 8205 8205 737
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200A
+Encoding: 8202 8202 738
+Width: 100
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2009
+Encoding: 8201 8201 739
+Width: 100
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2008
+Encoding: 8200 8200 740
+Width: 200
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2007
+Encoding: 8199 8199 741
+Width: 400
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2006
+Encoding: 8198 8198 742
+Width: 100
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2005
+Encoding: 8197 8197 743
+Width: 200
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2004
+Encoding: 8196 8196 744
+Width: 300
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2003
+Encoding: 8195 8195 745
+Width: 700
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2002
+Encoding: 8194 8194 746
+Width: 500
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2000
+Encoding: 8192 8192 747
+Width: 500
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2001
+Encoding: 8193 8193 748
+Width: 700
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1702291130
-ModificationTime: 1790712279
+ModificationTime: 1791404531
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -122,7 +122,7 @@ WinInfo: 0 32 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "shin" "Diacritics" "sin" "Diacritics" "dagesh" "Diacritics" "bottom" "Diacritics" "top" "Diacritics"
-BeginChars: 65593 738
+BeginChars: 65593 752
 
 StartChar: a
 Encoding: 97 97 0
@@ -9952,14 +9952,14 @@ EndChar
 
 StartChar: quotesinglbase
 Encoding: 8218 8218 408
-Width: 296
+Width: 500
 VWidth: 1200
-Flags: W
+Flags: HW
 HStem: -300 510<110 250>
 VStem: 200 200<-114.508 -20>
 LayerCount: 2
 Fore
-Refer: 76 39 S 1 0 0 1 0 -1200 2
+Refer: 76 39 N 1 0 0 1 0 -1200 2
 EndChar
 
 StartChar: quotedblleft
@@ -9992,7 +9992,7 @@ StartChar: quotedblbase
 Encoding: 8222 8222 411
 Width: 600
 VWidth: 1200
-Flags: W
+Flags: HW
 HStem: -300 510<110 250 510 650>
 VStem: 200 200<-114.508 -20> 600 200<-114.508 -20>
 LayerCount: 2
@@ -19343,6 +19343,108 @@ AnchorPoint: "shin" 1600 1200 mark 0
 LayerCount: 2
 Fore
 Refer: 736 1473 N 1 0 0 1 1200 0 2
+EndChar
+
+StartChar: uni2000
+Encoding: 8192 8192 738
+Width: 1100
+VWidth: 1200
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2001
+Encoding: 8193 8193 739
+Width: 2000
+VWidth: 1200
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2002
+Encoding: 8194 8194 740
+Width: 1100
+VWidth: 1200
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2003
+Encoding: 8195 8195 741
+Width: 2000
+VWidth: 1200
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni200B
+Encoding: 8203 8203 742
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200C
+Encoding: 8204 8204 743
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200D
+Encoding: 8205 8205 744
+Width: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2009
+Encoding: 8201 8201 745
+Width: 300
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200A
+Encoding: 8202 8202 746
+Width: 100
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2007
+Encoding: 8199 8199 747
+Width: 1600
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2008
+Encoding: 8200 8200 748
+Width: 500
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2006
+Encoding: 8198 8198 749
+Width: 300
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2005
+Encoding: 8197 8197 750
+Width: 500
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2004
+Encoding: 8196 8196 751
+Width: 600
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
