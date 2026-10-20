@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1702291130
-ModificationTime: 1791576170
+ModificationTime: 1791404531
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -9952,14 +9952,14 @@ EndChar
 
 StartChar: quotesinglbase
 Encoding: 8218 8218 408
-Width: 296
+Width: 500
 VWidth: 1200
-Flags: W
+Flags: HW
 HStem: -300 510<110 250>
 VStem: 200 200<-114.508 -20>
 LayerCount: 2
 Fore
-Refer: 76 39 S 1 0 0 1 0 -1200 2
+Refer: 76 39 N 1 0 0 1 0 -1200 2
 EndChar
 
 StartChar: quotedblleft

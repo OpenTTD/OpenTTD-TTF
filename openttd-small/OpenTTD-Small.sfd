@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1702291130
-ModificationTime: 1791576401
+ModificationTime: 1791403476
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -7523,7 +7523,7 @@ StartChar: uni20A6
 Encoding: 8358 8358 366
 Width: 500
 VWidth: 960
-Flags: HW
+Flags: W
 HStem: 0 21G<0 100 300 400> 0 21G<0 100 300 400> 75 75<100 300> 225 75<100 225>
 VStem: 0 100<0 75 150 225 300 425> 300 100<25 75 150 225 350 600>
 LayerCount: 2
@@ -8874,50 +8874,46 @@ EndChar
 
 StartChar: uni2015
 Encoding: 8213 8213 399
-Width: 960
+Width: 700
 VWidth: 960
-Flags: W
+Flags: HW
 HStem: 200 100<0 600>
 LayerCount: 2
 Fore
 Refer: 398 8212 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni2010
 Encoding: 8208 8208 400
-Width: 480
+Width: 400
 VWidth: 960
-Flags: W
+Flags: HW
 HStem: 200 100<0 300>
 LayerCount: 2
 Fore
 Refer: 82 45 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni2011
 Encoding: 8209 8209 401
-Width: 480
+Width: 400
 VWidth: 960
-Flags: W
+Flags: HW
 HStem: 200 100<0 300>
 LayerCount: 2
 Fore
 Refer: 82 45 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: figuredash
 Encoding: 8210 8210 402
-Width: 480
+Width: 400
 VWidth: 960
-Flags: W
+Flags: HW
 HStem: 200 100<0 300>
 LayerCount: 2
 Fore
 Refer: 82 45 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: ellipsis
