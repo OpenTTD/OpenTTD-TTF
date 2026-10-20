@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1702291130
-ModificationTime: 1791575861
+ModificationTime: 1791395966
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -8390,8 +8390,8 @@ EndChar
 
 StartChar: endash
 Encoding: 8211 8211 382
-Width: 600
-Flags: W
+Width: 700
+Flags: HW
 HStem: 300 100<0 600>
 LayerCount: 2
 Fore
