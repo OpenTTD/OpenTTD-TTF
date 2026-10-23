@@ -27,7 +27,7 @@ fontmodes = [{
 
 for scale in scales:
     for fontmode in fontmodes:
-        image = Image.new("RGB", (450 * scale, int(12.5 * line * scale)), background_shade[1])
+        image = Image.new("RGB", (450 * scale, int(13.3 * line * scale)), background_shade[1])
         draw = ImageDraw.Draw(image)
         draw.rectangle((0, 0, image.size[0] - scale - 1, image.size[1] - scale - 1), fill=background_shade[0], outline=None)
         draw.rectangle((0 + scale, 0 + scale, image.size[0] - scale - 1, image.size[1] - scale - 1), fill=background, outline=None)
@@ -46,4 +46,5 @@ for scale in scales:
         shadowtext(draw, scale, (3, 2 + line * 9), "Greek lower: αβγδεζηθικλμνξοπρςστυφχψω", font, foreground, shadow)
         shadowtext(draw, scale, (3, 2 + line * 10), "Cyrillic upper: АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ", font, foreground, shadow)
         shadowtext(draw, scale, (3, 2 + line * 11), "Cyrillic lower: абвгдежзиклмнопрстуфхцчшщъыьэюя", font, foreground, shadow)
+        shadowtext(draw, scale, (3, 2 + line * 12), "Hebrew: אבגדהוזחטיךכלםמןנסעףפץצקרשת", font, foreground, shadow)
         image.save("OpenTTD-Mono-" + str(scale * size) + "px-" + fontmode["description"] + ".png", "PNG")
