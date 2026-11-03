@@ -6,6 +6,11 @@ import json
 font = fontforge.open(sys.argv[1])
 config = json.load(open(sys.argv[2], "r"))
 
+# load size from config
+size = config["size"]
+print(f"Size: {size}")
+
+# set ascent and descent if specified in config
 if "ascent" in config:
 	font.ascent = config["ascent"]
 if "descent" in config:
@@ -15,7 +20,15 @@ print(f"Descent: {font.descent}")
 
 font.selection.all()
 
-# initial cleanup
+# generate bitmap strike
+# handle fontforge nested tuple bug
+try:
+	font.bitmapSizes = ((size,),)
+except (TypeError, SystemError):
+	font.bitmapSizes = (size,)
+font.regenBitmaps((size,))
+
+# initial cleanup, for TTF
 font.correctDirection()
 font.addExtrema()
 font.unlinkReferences()
@@ -44,6 +57,7 @@ font.autoHint()
 # TTF auto-instruct
 font.autoInstr()
 
-font.generate(sys.argv[1][:-3] + "ttf")
+# generate TTF
+font.generate(sys.argv[1][:-3] + "ttf", bitmap_type="ttf")
 #font.generate(sys.argv[1][:-3] + "otf")
 #font.save("tmp.sfd")
