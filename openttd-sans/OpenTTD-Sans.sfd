@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1702291130
-ModificationTime: 1791395966
+ModificationTime: 1793732229
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -1833,7 +1833,7 @@ EndChar
 StartChar: quotedbl
 Encoding: 34 34 71
 Width: 600
-Flags: W
+Flags: HW
 HStem: 780 20G<75 125 375 425>
 VStem: 50 150<534.991 626.376> 350 150<534.991 626.376>
 LayerCount: 2
@@ -1990,17 +1990,18 @@ Encoding: 39 39 76
 Width: 300
 Flags: W
 HStem: 780 20G<75 125>
-VStem: 50 150<534.991 626.376>
+VStem: 0 200<628.038 763.317> 50 150<559.347 629.599>
 LayerCount: 2
 Fore
 SplineSet
-75 400 m 1
- 0 450 l 1
- 25 475 50.8994140625 502.158203125 50 575 c 0
- 49.3828125 624.99609375 -1.2724609375 620.33984375 0 700 c 0
- 0.798828125 749.993164062 50 800 100 800 c 0
- 150 800 201.306640625 749.983398438 200 700 c 0
- 193.703125 459.182617188 100 425 75 400 c 1
+75 400 m 5xc0
+ 0 450 l 5xc0
+ 54.48046875 525 50 550 50 575 c 4xa0
+ 50 625 0 625 0 700 c 4
+ 0 750 50 800 100 800 c 4
+ 150 800 200 750 200 700 c 4
+ 200 675 200 675 200 650 c 4
+ 200 575 118.010742188 464.516601562 75 400 c 5xc0
 EndSplineSet
 EndChar
 
@@ -2119,7 +2120,7 @@ EndChar
 StartChar: comma
 Encoding: 44 44 81
 Width: 300
-Flags: W
+Flags: HW
 HStem: 180 20G<75 125>
 VStem: 50 150<-65.0092 26.376>
 LayerCount: 2
@@ -2500,7 +2501,7 @@ EndChar
 StartChar: semicolon
 Encoding: 59 59 96
 Width: 300
-Flags: W
+Flags: HW
 HStem: 180 20G<75 125> 400 200<32.7622 167.238>
 VStem: 0 200<432.762 567.238> 50 150<-65.0092 26.376>
 LayerCount: 2
@@ -8502,7 +8503,7 @@ EndChar
 StartChar: quoteright
 Encoding: 8217 8217 390
 Width: 300
-Flags: W
+Flags: HW
 HStem: 780 20G<75 125>
 VStem: 50 150<534.991 626.376>
 LayerCount: 2
@@ -8532,7 +8533,7 @@ EndChar
 StartChar: quotesinglbase
 Encoding: 8218 8218 392
 Width: 300
-Flags: W
+Flags: HW
 HStem: 180 20G<75 125>
 VStem: 50 150<-65.0092 26.376>
 LayerCount: 2
@@ -8555,7 +8556,7 @@ EndChar
 StartChar: quotedblright
 Encoding: 8221 8221 394
 Width: 600
-Flags: W
+Flags: HW
 HStem: 780 20G<75 125 375 425>
 VStem: 50 150<534.991 626.376> 350 150<534.991 626.376>
 LayerCount: 2
@@ -8567,7 +8568,7 @@ EndChar
 StartChar: quotedblbase
 Encoding: 8222 8222 395
 Width: 600
-Flags: W
+Flags: HW
 HStem: 180 20G<75 125 375 425>
 VStem: 50 150<-65.0092 26.376> 350 150<-65.0092 26.376>
 LayerCount: 2
