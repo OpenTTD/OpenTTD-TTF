@@ -7,13 +7,13 @@
    viewBox="0 0 1200 1200"
    version="1.1"
    id="svg1"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="960_pi-small.svg"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -24,17 +24,16 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="0.55583334"
-     inkscape:cx="400.29985"
-     inkscape:cy="665.66716"
+     inkscape:zoom="0.78606705"
+     inkscape:cx="380.37468"
+     inkscape:cy="590.91651"
      inkscape:window-width="1350"
      inkscape:window-height="1230"
-     inkscape:window-x="1722"
-     inkscape:window-y="67"
+     inkscape:window-x="361"
+     inkscape:window-y="117"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
-     showguides="false">
-    <inkscape:grid
+     showguides="false"><inkscape:grid
        id="grid1"
        units="px"
        originx="0"
@@ -49,17 +48,12 @@
        dotted="false"
        gridanglex="30"
        gridanglez="30"
-       visible="true" />
-  </sodipodi:namedview>
-  <defs
-     id="defs1" />
-  <g
+       visible="true" /></sodipodi:namedview><defs
+     id="defs1" /><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <path
+     id="layer1"><path
        id="path2"
        style="fill:#000000;fill-opacity:0.555319;fill-rule:evenodd;stroke-width:0.999873"
-       d="M 0 400 L 0 500 L 100 500 L 100 1000 L 300 1000 L 300 500 L 400 500 L 400 800 C 400 899.9996 475.00035 1000 650 1000 C 749.55668 1000 750 975 750 975 L 750 875 C 750 875 741.66266 902.54431 675 900 C 625.03648 898.09304 600 874.99971 600 800 L 600 500 L 700 500 L 700 400 L 600 400 L 400 400 L 0 400 z " />
-  </g>
-</svg>
+       d="m 0,400 v 100 h 100 v 500 H 300 V 500 h 100 v 300 c 0,99.9996 75.00018,200 250,200 49.99995,0 75,-12.5 75,-12.5 v -100 c 0,0 -25.00003,12.5 -50,12.5 -49.99995,0 -75,-25.00029 -75,-100 V 500 H 700 V 400 Z"
+       sodipodi:nodetypes="cccccccssccsscccc" /></g></svg>

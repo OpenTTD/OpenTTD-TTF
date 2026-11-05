@@ -7,7 +7,7 @@
    viewBox="0 0 1200 1200"
    version="1.1"
    id="svg1"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="953_iota-small.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,13 +24,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="0.55583334"
-     inkscape:cx="-319.34033"
-     inkscape:cy="665.66716"
+     inkscape:zoom="1.5721341"
+     inkscape:cx="190.82342"
+     inkscape:cy="823.40304"
      inkscape:window-width="1350"
      inkscape:window-height="1230"
-     inkscape:window-x="1722"
-     inkscape:window-y="67"
+     inkscape:window-x="33"
+     inkscape:window-y="203"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      showguides="false">
@@ -60,7 +60,7 @@
     <path
        id="path2"
        style="fill:#000000;fill-opacity:0.555319;fill-rule:evenodd;stroke-width:0.999873"
-       d="m 0,400 v 400 c 0,99.9997 75.00018,200 250,200 99.55678,0 100,-25 100,-25 V 875 c 0,0 -8.33727,27.54431 -75,25 -49.96357,-1.90696 -75,-25.00022 -75,-100 V 400 Z"
+       d="m 0,400 v 400 c 0,99.9997 75,200 250,200 50,0 75,-12.5 75,-12.5 v -100 c 0,0 -25,12.5 -50,12.5 -50,0 -75,-25.00022 -75,-100 V 400 Z"
        sodipodi:nodetypes="cssccsscc" />
   </g>
 </svg>
